@@ -25,7 +25,7 @@ generateButton.addEventListener('click', () => {
     bulbItem.classList.add('bulb-item');
 
     const bulbImage = document.createElement('img');
-    bulbImage.src = 'offbulb.png'; 
+    bulbImage.src = 'off-bulb.png'; 
     bulbImage.alt = 'Bulb Off';
 
     const switchLabel = document.createElement('label');
@@ -36,7 +36,7 @@ generateButton.addEventListener('click', () => {
     slider.classList.add('slider');
 
     toggleInput.addEventListener('change', () => {
-      bulbImage.src = toggleInput.checked ? 'onbulb.png' : 'offbulb.png';
+      bulbImage.src = toggleInput.checked ? 'on-bulb.png' : 'off-bulb.png'; // Switch image
     });
 
     switchLabel.appendChild(toggleInput);

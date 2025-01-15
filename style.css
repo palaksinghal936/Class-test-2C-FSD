@@ -18,14 +18,14 @@ body {
     padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
-    background-color: #aa5588;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
   }
   
   button:hover {
-    background-color: #73a9e2;
+    background-color: #0056b3;
   }
   
   #bulbContainer {
